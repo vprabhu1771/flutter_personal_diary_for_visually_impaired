@@ -39,6 +39,7 @@ dependencies:
   provider: ^6.1.2
   image_picker: ^1.1.2
   another_telephony: ^0.3.0
+  permission_handler: ^11.3.1
 
 dev_dependencies:
   flutter_test:
