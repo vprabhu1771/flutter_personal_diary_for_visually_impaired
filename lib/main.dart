@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_personal_diary_for_visually_impaired/screens/HomeScreen.dart';
 import 'package:flutter_personal_diary_for_visually_impaired/screens/SettingScreen.dart';
 import 'package:flutter_personal_diary_for_visually_impaired/services/UiProvider.dart';
 import 'package:provider/provider.dart';
@@ -36,7 +37,7 @@ class MyApp extends StatelessWidget {
                 ? notifier.darkTheme // dark theme applied
                 : notifier.blueTheme, // pink theme applied when not dark
 
-            home: SettingScreen(title: 'Settings'),
+            home: HomeScreen(title: 'Home'),
 
           );
         },
